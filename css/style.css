@@ -1,0 +1,356 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* all colors */
+:root {
+    --GreenColor: #00b39b;
+    --headerGreyColor: #ababab;
+    --greenCardColor: #00ccb1;
+    --blueCardColor: #3d83df;
+    --darkCardColor: #1b2734;
+    --buttonColor: #3d83df;
+    --paragraphColor: #747474;
+    --whiteColor: white;
+}
+
+
+body {
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    padding-top: 70px;
+    -webkit-font-smoothing: antialiased;
+}
+/* here the begin of header designe */
+header img {
+    width: 268px;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1015px;
+    margin: 0 auto;
+    padding-top: 18px;
+}
+header nav {
+    display: flex;
+    align-items: center;
+}
+header nav a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: var(--headerGreyColor);
+    font-size: 1.11em;
+    font-weight: 400;
+    font-family: Arial,sans-serif;
+}
+/*the end of header designe*/
+
+
+/*main designe !!*/
+
+/*section 1 */
+main section {
+    max-width: 1015px;
+    margin: 20px auto;
+}
+
+main section img {
+    display: block;
+    margin: 50px auto;
+}
+main section h2 {
+    display: flex;
+    margin: 45px;
+    justify-content: center;
+    font-size: 2.12rem;
+    font-family: Arial,sans-serif;
+    letter-spacing: -0.3px;
+    font-weight: 100;
+    color: var(--GreenColor);
+}
+main section div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+main section div p {
+    color: var(--paragraphColor);
+    font-size: 1.3em;
+}
+/*section 2*/
+
+#cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    display: block;
+    width: 30%;
+    height: 360px;
+    border-radius: 20px;
+}
+.card div {
+    display: block;
+    align-items: start;
+}
+.card div h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: Arial,sans-serif;
+    letter-spacing: 0.3px;
+}
+
+.card div h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    font-family: Arial,sans-serif;
+    margin-right: 10px;
+    font-weight: 100;
+}
+
+.card div>* {
+    margin: 10px 0 30px 32px;
+    display: block;
+    color: var(--whiteColor);
+}
+#country {
+    margin: 90px 0 20px 32px;
+    background-color: inherit;
+    border: none;
+    color: var(--whiteColor);
+    font-size: 1.2em;
+}
+#card1 {
+    background-color: var(--greenCardColor);
+}
+#card2 {
+    background-color: var(--blueCardColor);
+}
+#card3 {
+    background-color: var(--darkCardColor);
+}
+#country1 {
+    margin: 50px 0 0 32px;
+    background-color: inherit;
+    border: none;
+    color: var(--whiteColor);
+    font-size: 1.2em;
+}
+#country2 {
+    margin: 15px 0 20px 32px;
+    background-color: inherit;
+    border: none;
+    color: var(--whiteColor);
+    font-size: 1.2em;
+}
+
+#country3 {
+    margin: 115px 0 20px 32px;
+    background-color: inherit;
+    border: none;
+    color: var(--whiteColor);
+    font-size: 1.2em;
+}
+
+/*section 3*/
+#company {
+    max-width: 1015px;
+    display: flex;
+    margin-top: 50px;
+}
+
+#company h1 {
+    width: 80%;
+    color: var(--GreenColor);
+    font-size: 2em;
+}
+#company ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin-left: 3%;
+}
+#company li {
+    width: 25%;
+    padding: 15px 5px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+#company li svg {
+    height: 22px;
+}
+/*sizing of imgs*/
+#jameda {
+    height: 20px;
+    margin: 0 ;
+}
+#tuotempo {
+    height: 16px;
+    margin: 0 ;
+}
+#gipo {
+    height: 34px;
+    margin: 0 ;
+}
+#cliniccloud {
+    height: 34px;
+    margin: 0 ;
+}
+#feegow {
+    margin: 0 ;
+}
+/*end of sizing of imgs*/
+
+.statis-section {
+    background-color: #e5faf8;
+    height: 600px;
+    width: 100%;
+    flex-direction: row;
+}
+
+#upstat-div {
+    margin-top: 20px;
+    width: 50%;
+    align-items: center;
+    display: block;
+}
+.container {
+    display: flex;
+    margin: 0;
+}
+
+#statis-slogan {
+    font-size: 2.2em;
+}
+
+.statis-desc {
+    font-size: .875em;
+    font-weight: 400;
+    /* line-height: 1.72; */
+    padding: 13px 129px;
+}
+
+.ddplogo-statis {
+    height: 382px;
+    width: 440px;
+    margin-top: 25px;
+}
+
+
+.box {
+    background-color: #fff;
+    width: 228px;
+    height: 250px;
+    border-radius: 5px;
+    margin-top: 31px;
+    text-align: center;
+}
+
+.box img {
+    margin-top: 13%;
+    width: 40px;
+}
+
+.land-desc {
+    padding: 0%;
+    font-size: 13px;
+}
+
+.rd-title {
+    font-size: 20px;
+}
+
+.box-neighb {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+/*txt sec*/
+.text-container {
+    width: 470px;
+    margin: 8% 31%;
+    text-align: center;
+
+}
+
+.text-div {
+    font-size: .875em;
+    line-height: 1.7;
+
+}
+/*image section */
+.image-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    margin: 0% 13% 9%;
+}
+
+.wrapper {
+    width: 309px;
+    height: 345px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+}
+
+.wrapper img {
+    width: 309px;
+    height: 278px;
+
+}
+
+.city-desc {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    margin: 5%;
+}
+
+.seemore-btn {
+
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 10px;
+    margin-left: 29%;
+    background: #3d83df;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+}
+
+.image-section a {
+    text-decoration: none;
+    color: #747474;
+
+}
+
+
+/*footer designe !! */
+footer {
+    height: 75px;
+    width: 100%;
+    border-top: 1px solid grey;
+    font-size: .75em;
+    color: #ababab;
+    text-align: center;
+    line-height: 2.2;
+}
+
+footer a {
+    color: #3d83df;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
